@@ -1,0 +1,27 @@
+{
+  "name": "recipeproject",
+  "version": "1.0.0",
+  "description": "Practice recipe project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmojica30/recipeProject.git"
+  },
+  "author": "Fernando Mojica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmojica30/recipeProject/issues"
+  },
+  "homepage": "https://github.com/fmojica30/recipeProject#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
